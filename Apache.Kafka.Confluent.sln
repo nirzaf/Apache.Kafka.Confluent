@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apache.Kafka.Confluent", "Apache.Kafka.Confluent.csproj", "{EB13B322-9A69-41BF-BEB9-F693B302DD43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apache.Kafka.Consumer", "..\Apache.Kafka.Consumer\Apache.Kafka.Consumer.csproj", "{565A5D05-4DCB-45D0-A052-FE75D5CEFB4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EB13B322-9A69-41BF-BEB9-F693B302DD43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB13B322-9A69-41BF-BEB9-F693B302DD43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB13B322-9A69-41BF-BEB9-F693B302DD43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{565A5D05-4DCB-45D0-A052-FE75D5CEFB4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{565A5D05-4DCB-45D0-A052-FE75D5CEFB4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{565A5D05-4DCB-45D0-A052-FE75D5CEFB4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{565A5D05-4DCB-45D0-A052-FE75D5CEFB4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
